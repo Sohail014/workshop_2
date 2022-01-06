@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class deckofcard {
+public class DeckOfCard {
     public ArrayList<String> cardsDeck = new ArrayList<>();
 
     public static final Scanner scanner = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class deckofcard {
     UC1:- Setup the initial game with deck of cards and make sure we have unique cards.
      */
 
-    public void deckofcard() {
+    public void DeckOfCard() {
 
         String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
 
