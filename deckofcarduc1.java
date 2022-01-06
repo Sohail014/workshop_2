@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 
-public class deckofcard {
+public class DeckOfCard {
     public ArrayList<String> cardsDeck = new ArrayList<>();
 
 
-    public void deckofcard() {
+    public void DeckOfCard() {
         String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
         String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "King", "Queen", "Ace"};
         int numOfCards = suits.length * ranks.length;
