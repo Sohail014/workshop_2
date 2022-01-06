@@ -2,14 +2,14 @@ import java.util.ArrayList;
 
 import java.util.Scanner;
 
-public class deckofcard {
+public class DeckOfCard {
     
     public ArrayList<String> cardsDeck = new ArrayList<>();
     
     public static final Scanner scanner = new Scanner(System.in);
 
 
-    public void deckOfCard() {
+    public void DeckOfCard() {
         
         String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
         
